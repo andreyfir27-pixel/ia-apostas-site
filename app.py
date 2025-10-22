@@ -1,4 +1,4 @@
-   import streamlit as st
+import streamlit as st
 import requests
 import pandas as pd
 from datetime import datetime
@@ -168,4 +168,3 @@ st.markdown("""
         <p><strong>Nota:</strong> Dados são aproximados e para fins educacionais. A IA usa ML treinado com dados simulados — melhore com históricos reais para mais precisão. Não promovo apostas; consulte profissionais.</p>
     </div>
 """, unsafe_allow_html=True)
-
